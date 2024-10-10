@@ -7,22 +7,24 @@
 body {
   display: flex;
   flex-direction: column;
-  width: 90vw;
+  width: 90%;
   background-color: #f5f7fa;
   height: 100%;
   align-items: center;
   justify-content: center;
+  padding: 0 70px;
+  margin-left: 70px;
 }
 
 nav {
+  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-left: 80px;
-  gap: 170px;
+  justify-content: space-between;
+  gap: 150px;
+  width: 100%;
 }
 nav img {
-  margin: 20px;
   height: 50px;
   width: 200px;
 }
@@ -83,19 +85,23 @@ button {
   flex-direction: column;
   width: 100%;
   margin-top: 40px;
-  justify-content: right;
   align-items: center;
+  justify-content: center;
+  gap: 140px;
 }
 
 .registerBody {
   display: flex;
   width: 100%;
   align-items: center;
+  gap: 90px;
+  padding:0 100px  ;
+  margin-left: -5%;
 }
 
+
 .home {
-  width: 80%;
-  margin-left: 240px;
+  width: 650px;
 }
 
 .home button {
@@ -106,6 +112,7 @@ button {
   justify-content: center;
   border-radius: 5px;
   border-color: #4caf4f;
+  width: 128px;
 }
 
 .home button:hover {
@@ -117,6 +124,7 @@ button {
   font-size: 64px;
   font-weight: 600;
   line-height: 76px;
+  width: 650px;
 }
 
 .headline2 {
@@ -135,7 +143,7 @@ button {
 
 .registerSection img {
   height: 400px;
-  width: 400px;
+  width: 390px;
 }
 
 .ellipsis {
@@ -143,7 +151,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  margin-left: 100px;
+  margin-top: -120px;
 }
 
 .ellipsis div {
@@ -162,14 +170,13 @@ button {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   height: 270px;
   background-color: white;
   justify-content: center;
   align-items: center;
   gap: 10px;
   padding: 50px;
-  margin-left: 150px;
 }
 
 .p1 {
@@ -203,15 +210,18 @@ button {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 288px;
-  margin-left: 300px;
+  gap: 100px;
+  margin-top: 40px;
+  margin-left: 5%;
+  
 }
 
 .achievementHeading {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 350px;
   height: 120px;
 }
 
@@ -241,14 +251,13 @@ button {
   width: 600px;
   display: flex;
   align-items: center;
-  gap: 120px;
-  margin-left: -700px;
+  gap: 40px;
+  margin-left: 100px;
 }
 
 .cont {
   display: flex;
   align-items: center;
-  margin-left: -60px;
   width: 255px;
 }
 
@@ -282,9 +291,7 @@ button {
   justify-content: center;
   height: 506;
   background-color: white;
-  margin-left: 120px;
-  width: 89%;
-  margin-left: 165px;
+  width: 100%;
 }
 
 .marketingSection p:nth-child(1) {
@@ -371,16 +378,16 @@ button {
   font-size: 20px !important;
   font-weight: 600 !important;
   line-height: 28px !important;
+  cursor: pointer;
 }
 
 .landingSection {
   background-color: white;
-  width: 1224px;
+  width: 100%;
   height: 680px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 166px;
 }
 
 .landingSection img {
@@ -444,10 +451,9 @@ button {
 }
 
 footer{
-  width: 1224px;
+  width: 100%;
   height: 290px;
   background-color: #263238;
-  margin-left: 165px;
   display: flex;
   justify-content: space-between;
   align-items: center;
